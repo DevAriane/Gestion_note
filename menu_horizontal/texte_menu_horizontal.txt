@@ -1,0 +1,27 @@
+<table align=center><tr><td>
+<ul id="MenuBar1" class="MenuBarHorizontal">
+  <li><a class="MenuBarItemSubmenu" href="#">Elément 1</a>
+      <ul>
+	<li><a href="#">Elément 1.1</a></li>
+              <li><a href="#">Elément 1.2</a></li>
+        <li><a href="#">Elément 1.3</a></li>
+      </ul>
+  </li>
+   <li><a class="MenuBarItemSubmenu" href="#">Elément 2</a>
+      <ul>
+        <li><a class="MenuBarItemSubmenu" href="#">Elément 2.1</a>
+            <ul>
+              <li><a href="#">Elément 2.1.1</a></li>
+              <li><a href="#">Elément 2.1.2</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Elément 2.2</a></li>
+        <li><a href="#">Elément 2.3</a></li>
+      </ul>
+  </li>
+  
+</ul>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryMenuBarDownHover.gif", imgRight:"SpryMenuBarRightHover.gif"});
+</script>
+</td></tr></table>

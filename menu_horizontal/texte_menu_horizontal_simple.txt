@@ -1,0 +1,34 @@
+<br><table align=center><tr><td>
+<ul id="MenuBar1" class="MenuBarHorizontal">
+  <li><a class="MenuBarItemSubmenu" href="#">Fichier</a>
+      <ul>
+	<li><a href="#">Commande ficier 1</a></li>
+              <li><a href="#">Commande ficier 2</a></li>
+        <li><a href="#">Commande ficier 3</a></li>
+      </ul>
+  </li>
+
+
+  <li><a class="MenuBarItemSubmenu" href="#">Structure</a>
+      <ul>
+	<li><a href="gestion_candidat.php">Candidats</a></li>
+         <li><a href="gestion_matiere.php">Matieres</a></li>
+        <li><a href="gestion_note.php">Notes</a></li>
+      </ul>
+  </li>
+
+
+  
+ <li><a class="MenuBarItemSubmenu" href="#">Etats</a>
+      <ul>
+	<li><a href="#">Commande etat 1</a></li>
+              <li><a href="#">Commande etat 2</a></li>
+        <li><a href="#">Commande etat 3</a></li>
+      </ul>
+  </li>
+
+</ul>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryMenuBarDownHover.gif", imgRight:"SpryMenuBarRightHover.gif"});
+</script>
+</td></tr></table>

@@ -1,0 +1,7 @@
+Placer les deux lignes ci-dessous dans l'en-tête (entre les balises <HEAD>..</HEAD>)
+
+<script src="menu_horizontal/SpryMenuBar.js" type="text/javascript"></script>
+<link href="menu_horizontal/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+
+Remarque
+La page web est en dehors du dossier "menu_horizontal"

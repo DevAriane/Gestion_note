@@ -1,0 +1,39 @@
+/*creation du fichier formatage.css de l'exemple*/
+
+body{
+    background-color: #c1c4f5;
+    margin: auto;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+}
+
+td{
+    background-color: #ccffff;
+    color: black;
+    font-size: 16px;
+    text-align: left;
+}
+
+caption,th{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+input,textarea,select{
+    background-color: white;
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input:focus,textarea:focus{
+    background-color: #ffff99;
+    font-size: 16px;
+    color: blue;
+}
